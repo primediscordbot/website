@@ -1,4 +1,4 @@
-url: https://primediscordbot.netlify.com
+output: build
 branding:
   title: Prime
   label: Docs
