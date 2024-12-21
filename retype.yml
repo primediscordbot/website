@@ -1,0 +1,42 @@
+url: https://primediscordbot.netlify.com
+branding:
+  title: Prime
+  label: Docs
+  logo: assets/images/B6543369-2FDB-42CE-8711-09844B62804B.jpg
+links:
+  - text: "🏠 Home"
+    link: welcome.md
+  - text: "🚀 Support"
+    link: https://discord.gg/VMkv79vBfX
+  - text: "🏷️ Premium"
+    link: https://discord.gg/VMkv79vBfX
+  - text: "Invite Me"
+    link: https://primediscordbot.github.io/invite
+footer:
+  copyright: "&copy; Prime Bot - Copyright {{ year }}. All rights reserved."
+
+sidebar:
+  - label: "Welcome"
+    link: "/01-welcome"
+  - label: "Features"
+    link: "/02-features"
+  - label: "Commands"
+    children:
+      - label: "Vanity Role"
+        link: "/commands/01-vanityrole"
+      - label: "Automod"
+        link: "/commands/02-automod"
+      - label: "Autoresponder"
+        link: "/commands/03-autoresponder"
+      - label: "Backup"
+        link: "/commands/04-backup"
+      - label: "Esports"
+        link: "/commands/05-esports"
+      - label: "Greet"
+        link: "/commands/06-greet"
+      - label: "Media"
+        link: "/commands/07-media"
+      - label: "SSVerify"
+        link: "/commands/08-ssverify"
+      - label: "Ticket"
+        link: "/commands/09-ticket"
